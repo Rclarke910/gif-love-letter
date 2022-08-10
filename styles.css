@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    background: linear-gradient(pink,rgb(249, 92, 116));
     color: #ffffff;
 }
 
@@ -12,12 +12,12 @@ h1, h2, h3, h4, p {
 #bff-img {
     width: 150px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid #f3c4d700;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #EFB0C9;
+    background: #f7adc9;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, p {
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+    background: #f7adc9;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -48,38 +48,36 @@ h1, h2, h3, h4, p {
     margin-top: 0;
 }
 
-#gift-img-cheers {
-    height: 200px;
-}
+
 
 .gift-img {
     margin: 20px auto;
     max-width: 400px;
     height: 400px;
-    border: 6px solid white;
+    border: 6px solid pink;
     border-radius: 10px;
-    background-image: url("images/gift-cover.jpg");
+    background-image: url(https://i.pinimg.com/originals/ca/ed/1a/caed1ad584eccf6240ad58171f154dee.jpg);
     background-size: cover;
 }
 
 #gift-img-happy:hover {
-    background-image: url("images/happy.gif");
+    background-image: url("https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif");
 }
 
 #gift-img-hot:hover {
-    background-image: url("images/hot.gif");
+    background-image: url("https://media.giphy.com/media/UpLt2B2a4lnrYNpmeF/giphy.gif");
 }
 
 #gift-img-genius:hover {
-    background-image: url("images/genius.gif");
+    background-image: url("https://media.giphy.com/media/l4pTdcifPZLpDjL1e/giphy.gif");
 }
 
 #gift-img-badass:hover {
-    background-image: url("images/badass.gif");
+    background-image: url("https://media.giphy.com/media/sKjclHid1yOanWerno/giphy.gif");
 }
 
 #gift-img-cheers:hover {
-    background-image: url("images/cheers.gif");
+    background-image: url("https://media.giphy.com/media/iQrZZfBDblslbCrTvr/giphy.gif");
 }
 
 #footer {
